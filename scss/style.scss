@@ -69,8 +69,8 @@ section{
     position: relative;
     .theme1{
         background: url(../img/theme1_bg_mob.jpg) center top no-repeat;
-        background-repeat: repeat;
-        // background-size: cover;
+        background-repeat: repeat-x;
+        background-size: contain;
         @media (max-width: 960px) {
             background: url(../img/theme1_bg_mob.jpg) center bottom no-repeat;
             background-size: cover;
@@ -126,8 +126,8 @@ section{
     }
     .theme4{
         background: url(../img/theme1_bg_mob.jpg) center top no-repeat;
-        background-repeat: repeat;
-        background-size: cover;
+        background-repeat: repeat-x;
+        background-size: contain;
         @media (max-width: 960px) {
             background: url(../img/theme4_bg_mob.jpg) center center no-repeat;
             background-size: cover;
@@ -317,7 +317,7 @@ section{
             overflow: hidden;
             @media (min-width:1200px) {
                 width: calc(88/1600*100%);
-                margin: 6% auto 3%;
+                margin: 60px auto;
             }
             img{
                 float: left;
