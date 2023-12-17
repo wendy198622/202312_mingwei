@@ -77,7 +77,7 @@ section{
         }
     }
     .theme2-1{
-        background: url(../img/theme2-1_bg.jpg) center 100px no-repeat;
+        background: url(../img/theme2-1_bg.jpg) center top no-repeat;
         background-size: cover;
         @media (max-width: 960px) {
             background: url(../img/theme2-1_bg_mob.jpg) center bottom no-repeat;
@@ -85,7 +85,7 @@ section{
         }
     }
     .theme2-2{
-        background: url(../img/theme2-2_bg.jpg) center 100px no-repeat;
+        background: url(../img/theme2-2_bg.jpg) center top no-repeat;
         background-size: cover;
         @media (max-width: 960px) {
             background: url(../img/theme2-2_bg_mob.jpg) center bottom no-repeat;
@@ -93,8 +93,9 @@ section{
         }
     }
     .theme3-1{
-        background: url(../img/theme3-1_bg.jpg) center top no-repeat;
-        background-size: cover;
+        background: url(../img/theme3-1_bg_mob.jpg) center top no-repeat;
+        background-repeat: repeat-x;
+        background-size: contain;
         @media (max-width: 960px) {
             background: url(../img/theme3-1_bg_mob.jpg) center bottom no-repeat;
             background-size: cover;
@@ -326,7 +327,7 @@ section{
         .subtitle{
             width: calc(274/460*100%);
             max-width: 274px;
-            margin: 0 auto 10%;
+            margin: 0 auto 120px;
             @media (min-width:1200px) {
                 width: calc(274/1600*100%);
             }
@@ -340,6 +341,11 @@ section{
             bottom: 60px;
             @media (min-width:1200px) {
                 width: calc(200/1600*100%);
+                position: relative;
+                left: auto;
+                transform: none;
+                bottom: none;
+                margin:  60px auto 0;
             }
         }
     }
@@ -352,6 +358,9 @@ section{
             top: 10%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 80px;
+            }
         }
         .content{
             width: calc(230/460*100%);
@@ -360,6 +369,9 @@ section{
             top: 30%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 240px
+            }
         }
     }
     .theme2-2{
@@ -371,6 +383,11 @@ section{
             top: 10%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                width: calc(160/1600*100%);
+                max-width: 160px;
+                top: 70px;
+            }
         }
         .title{
             width: calc(300/460*100%);
@@ -379,6 +396,11 @@ section{
             top: 29%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                width: calc(300/1600*100%);
+                max-width: 300px;
+                top: 240px;
+            }
         }
         .content{
             width: calc(120/460*100%);
@@ -387,6 +409,10 @@ section{
             top: 40%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                width: calc(120/1660*100%);
+                top: 340px;
+            }
         }
     }
     .theme3-1{
@@ -395,11 +421,18 @@ section{
             width: calc(300/460*100%);
             max-width: 300px;
             margin: 0 auto;
+            @media (min-width:1200px) {
+                width: calc(300/1600*100%);
+            }
         }
         .subtitle{
             width: calc(100/460*100%);
             max-width: 100px;
             margin: 3% auto !important;
+            @media (min-width:1200px) {
+                width: calc(100/1600*100%);
+                margin: 60px auto !important;
+            }
         }
         .teams{
             width: calc(350/460*100%);
@@ -407,11 +440,21 @@ section{
             margin: 0 auto;
             padding: 20px;
             background: #fff;
+            @media (min-width:1200px) {
+                width: 80%;
+                max-width: 80%;
+            }
             ul{
+                overflow: hidden;
                 li{
                     overflow: hidden;
                     padding: 10px 0;
                     border-bottom: 1px solid #C9A063;
+                    @media (min-width:1200px) {
+                        width: calc((100% - 50px) / 5;
+                        margin-right: 10px;
+                        float: left;
+                    }
 
                     &:last-child{
                         border-bottom: 0;
@@ -421,11 +464,18 @@ section{
                         .photo{
                             width: 50%;
                             float: left;
+                            @media (min-width:1200px) {
+                                width: 90%;
+                            }
                         }
                         .intro{
                             width: 40%;
                             float: right;
                             margin-left: 10%;
+                            @media (min-width:1200px) {
+                                width: 90%;
+                                margin-top: 20px;
+                            }
                         }
                         &:after{
                             content: "";
@@ -443,11 +493,18 @@ section{
                         .photo{
                             width: 50%;
                             float: right;
+                            @media (min-width:1200px) {
+                                width: 90%;
+                            }
                         }
                         .intro{
                             width: 40%;
                             float: left;
                             margin-left: 10%;
+                            @media (min-width:1200px) {
+                                width: 90%;
+                                margin-top: 20px;
+                            }
                         }
                         &:after{
                             content: "";
@@ -457,6 +514,10 @@ section{
                             position: absolute;
                             left: 0;
                             top: 10px;
+                            @media (min-width:1200px) {
+                                left: auto;
+                                right: 0;
+                            }
                         }
                     }
                 }
@@ -472,6 +533,9 @@ section{
             top: 9%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 80px;
+            }
         }
         .subtitle{
             width: calc(112/460*100%);
@@ -480,6 +544,9 @@ section{
             top: 23%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 240px;
+            }
         }
         .content{
             width: calc(192/460*100%);
@@ -489,6 +556,10 @@ section{
             top: 33%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 320px;
+            }
+
             &:before{
                 content: "";
                 width: 110%;
@@ -519,6 +590,11 @@ section{
             top:47%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 320px;
+                left:60%;
+                transform: none;
+            }
         }
         .subtitle{
             width: calc(142/460*100%);
@@ -527,6 +603,11 @@ section{
             top: 61%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 480px;
+                left:60%;
+                transform: none;
+            }
         }
         .content{
             width: calc(260/460*100%);
@@ -536,6 +617,11 @@ section{
             top: 66%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 560px;
+                left:60%;
+                transform: none;
+            }
             &:before{
                 content: "";
                 width: 110%;
@@ -566,6 +652,9 @@ section{
             top:9%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 80px;
+            }
         }
         .subtitle{
             width: calc(138/460*100%);
@@ -574,6 +663,9 @@ section{
             top: 22%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 240px;
+            }
         }
         .content{
             width: calc(193/460*100%);
@@ -583,6 +675,9 @@ section{
             top: 29%;
             left: 50%;
             transform: translateX(-50%);
+            @media (min-width:1200px) {
+                top: 320px;
+            }
             &:before{
                 content: "";
                 width: 110%;
@@ -609,12 +704,20 @@ section{
             width: calc(288/460*100%);
             max-width: 288px;
             margin: 0 auto;
+            @media (min-width:1200px) {
+                width: calc(288/1600*100%);
+            }
         }
+    
         .comingsoon{
             width: calc(88/460*100%);
             max-width: 88px;
             margin: 10% auto 5%;
             overflow: hidden;
+            @media (min-width:1200px) {
+                width: calc(88/1600*100%);
+                margin: 60px auto;
+            }
             img{
                 float: left;
             }
@@ -623,11 +726,21 @@ section{
             width: calc(276/460*100%);
             max-width: 276px;
             margin: 5% auto;
+            @media (min-width:1200px) {
+                width: calc(276/1600*100%);
+                max-width: 276px;
+                margin: 60px auto;
+            }
         }
         .map{
             width: calc(176/460*100%);
             max-width: 176px;
             margin: 0 auto 5%;
+            @media (min-width:1200px) {
+                width: calc(176/1600*100%);
+                max-width: 176px;
+                margin: 0 auto 60px;
+            }
         }
         .logo{
             width: calc(200/460*100%);
@@ -636,6 +749,14 @@ section{
             left: 50%;
             transform: translateX(-50%);
             bottom: 60px;
+            @media (min-width:1200px) {
+                width: calc(200/1600*100%);
+                position: relative;
+                left: auto;
+                transform: none;
+                bottom: none;
+                margin:  120px auto 0;
+            }
         }
     }
 }
