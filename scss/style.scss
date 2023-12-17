@@ -737,8 +737,8 @@ section{
             max-width: 176px;
             margin: 0 auto 5%;
             @media (min-width:1200px) {
-                width: calc(176/1600*100%);
-                max-width: 176px;
+                width: calc(240/1600*100%);
+                max-width: 240px;
                 margin: 0 auto 60px;
             }
         }

@@ -980,8 +980,8 @@ section .theme4 .map {
 
 @media (min-width: 1200px) {
   section .theme4 .map {
-    width: calc(176/1600*100%);
-    max-width: 176px;
+    width: calc(240/1600*100%);
+    max-width: 240px;
     margin: 0 auto 60px;
   }
 }
