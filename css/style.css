@@ -474,6 +474,8 @@ section .theme2-1 .title {
 
 @media (min-width: 1200px) {
   section .theme2-1 .title {
+    width: calc(300/1000*100%);
+    max-width: 360px;
     top: 80px;
   }
 }
@@ -490,6 +492,8 @@ section .theme2-1 .content {
 
 @media (min-width: 1200px) {
   section .theme2-1 .content {
+    width: calc(230/1000*100%);
+    max-width: 300px;
     top: 240px;
   }
 }
@@ -510,8 +514,8 @@ section .theme2-2 .logo {
 
 @media (min-width: 1200px) {
   section .theme2-2 .logo {
-    width: calc(160/1600*100%);
-    max-width: 160px;
+    width: calc(160/1000*100%);
+    max-width: 220px;
     top: 70px;
   }
 }
@@ -528,9 +532,9 @@ section .theme2-2 .title {
 
 @media (min-width: 1200px) {
   section .theme2-2 .title {
-    width: calc(300/1600*100%);
+    width: calc(300/1000*100%);
     max-width: 300px;
-    top: 240px;
+    top: 280px;
   }
 }
 
@@ -546,8 +550,9 @@ section .theme2-2 .content {
 
 @media (min-width: 1200px) {
   section .theme2-2 .content {
-    width: calc(120/1660*100%);
-    top: 340px;
+    width: calc(120/1000*100%);
+    max-width: 150px;
+    top: 360px;
   }
 }
 
@@ -575,7 +580,8 @@ section .theme3-1 .subtitle {
 
 @media (min-width: 1200px) {
   section .theme3-1 .subtitle {
-    width: calc(100/1600*100%);
+    width: calc(100/1000*100%);
+    max-width: 140px;
     margin: 60px auto !important;
   }
 }
@@ -732,6 +738,8 @@ section .theme3-2 .subtitle {
 
 @media (min-width: 1200px) {
   section .theme3-2 .subtitle {
+    width: calc(112/1000*100%);
+    max-width: 150px;
     top: 240px;
   }
 }
@@ -749,6 +757,8 @@ section .theme3-2 .content {
 
 @media (min-width: 1200px) {
   section .theme3-2 .content {
+    width: calc(192/1000*100%);
+    max-width: 250px;
     top: 320px;
   }
 }
@@ -808,6 +818,8 @@ section .theme3-3 .subtitle {
 
 @media (min-width: 1200px) {
   section .theme3-3 .subtitle {
+    width: calc(142/1000*100%);
+    max-width: 180px;
     top: 480px;
     left: 60%;
     -webkit-transform: none;
@@ -828,6 +840,8 @@ section .theme3-3 .content {
 
 @media (min-width: 1200px) {
   section .theme3-3 .content {
+    width: calc(260/1000*100%);
+    max-width: 320px;
     top: 560px;
     left: 60%;
     -webkit-transform: none;
@@ -887,6 +901,8 @@ section .theme3-4 .subtitle {
 
 @media (min-width: 1200px) {
   section .theme3-4 .subtitle {
+    width: calc(138/1000*100%);
+    max-width: 170px;
     top: 240px;
   }
 }
@@ -904,6 +920,8 @@ section .theme3-4 .content {
 
 @media (min-width: 1200px) {
   section .theme3-4 .content {
+    width: calc(193/1000*100%);
+    max-width: 250px;
     top: 320px;
   }
 }
