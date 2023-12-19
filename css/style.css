@@ -389,7 +389,7 @@ section .theme .container .formBox button:hover {
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 960px) {
   section .theme .container .formBox button {
     width: 100%;
   }
@@ -401,7 +401,7 @@ section .theme1 .title {
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme1 .title {
     width: calc(288/1600*100%);
   }
@@ -414,7 +414,7 @@ section .theme1 .comingsoon {
   overflow: hidden;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme1 .comingsoon {
     width: calc(88/1600*100%);
     margin: 60px auto;
@@ -431,7 +431,7 @@ section .theme1 .subtitle {
   margin: 0 auto 120px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme1 .subtitle {
     width: calc(274/1600*100%);
   }
@@ -446,7 +446,7 @@ section .theme1 .logo {
   bottom: 60px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme1 .logo {
     width: calc(200/1600*100%);
     position: relative;
@@ -472,7 +472,7 @@ section .theme2-1 .title {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme2-1 .title {
     width: calc(300/1000*100%);
     max-width: 360px;
@@ -490,7 +490,7 @@ section .theme2-1 .content {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme2-1 .content {
     width: calc(230/1000*100%);
     max-width: 300px;
@@ -512,7 +512,7 @@ section .theme2-2 .logo {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme2-2 .logo {
     width: calc(160/1000*100%);
     max-width: 220px;
@@ -530,7 +530,7 @@ section .theme2-2 .title {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme2-2 .title {
     width: calc(300/1000*100%);
     max-width: 300px;
@@ -548,7 +548,7 @@ section .theme2-2 .content {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme2-2 .content {
     width: calc(120/1000*100%);
     max-width: 150px;
@@ -566,7 +566,7 @@ section .theme3-1 .title {
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .title {
     width: calc(300/1600*100%);
   }
@@ -578,7 +578,7 @@ section .theme3-1 .subtitle {
   margin: 3% auto !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .subtitle {
     width: calc(100/1000*100%);
     max-width: 140px;
@@ -594,7 +594,7 @@ section .theme3-1 .teams {
   background: #fff;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams {
     width: 80%;
     max-width: 80%;
@@ -611,7 +611,7 @@ section .theme3-1 .teams ul li {
   border-bottom: 1px solid #C9A063;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams ul li {
     width: calc((100% - 50px) / 5);
     margin-right: 10px;
@@ -632,7 +632,7 @@ section .theme3-1 .teams ul li:nth-child(odd) .photo {
   float: left;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams ul li:nth-child(odd) .photo {
     width: 90%;
   }
@@ -644,7 +644,7 @@ section .theme3-1 .teams ul li:nth-child(odd) .intro {
   margin-left: 10%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams ul li:nth-child(odd) .intro {
     width: 90%;
     margin-top: 20px;
@@ -670,7 +670,7 @@ section .theme3-1 .teams ul li:nth-child(even) .photo {
   float: right;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams ul li:nth-child(even) .photo {
     width: 90%;
   }
@@ -682,7 +682,7 @@ section .theme3-1 .teams ul li:nth-child(even) .intro {
   margin-left: 10%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams ul li:nth-child(even) .intro {
     width: 90%;
     margin-top: 20px;
@@ -699,7 +699,7 @@ section .theme3-1 .teams ul li:nth-child(even):after {
   top: 10px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-1 .teams ul li:nth-child(even):after {
     left: auto;
     right: 0;
@@ -720,7 +720,7 @@ section .theme3-2 .title {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-2 .title {
     top: 80px;
   }
@@ -736,7 +736,7 @@ section .theme3-2 .subtitle {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-2 .subtitle {
     width: calc(112/1000*100%);
     max-width: 150px;
@@ -755,7 +755,7 @@ section .theme3-2 .content {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-2 .content {
     width: calc(192/1000*100%);
     max-width: 250px;
@@ -797,9 +797,11 @@ section .theme3-3 .title {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-3 .title {
-    top: 320px;
+    width: calc(142/1000*100%);
+    max-width: 180px;
+    top: 12%;
     left: 60%;
     -webkit-transform: none;
             transform: none;
@@ -816,11 +818,11 @@ section .theme3-3 .subtitle {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-3 .subtitle {
     width: calc(142/1000*100%);
     max-width: 180px;
-    top: 480px;
+    top: 20%;
     left: 60%;
     -webkit-transform: none;
             transform: none;
@@ -838,11 +840,11 @@ section .theme3-3 .content {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-3 .content {
-    width: calc(260/1000*100%);
-    max-width: 320px;
-    top: 560px;
+    width: calc(142/1000*100%);
+    max-width: 180px;
+    top: 32%;
     left: 60%;
     -webkit-transform: none;
             transform: none;
@@ -883,7 +885,7 @@ section .theme3-4 .title {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-4 .title {
     top: 80px;
   }
@@ -899,7 +901,7 @@ section .theme3-4 .subtitle {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-4 .subtitle {
     width: calc(138/1000*100%);
     max-width: 170px;
@@ -918,7 +920,7 @@ section .theme3-4 .content {
           transform: translateX(-50%);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme3-4 .content {
     width: calc(193/1000*100%);
     max-width: 250px;
@@ -952,7 +954,7 @@ section .theme4 .title {
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme4 .title {
     width: calc(288/1600*100%);
   }
@@ -965,7 +967,7 @@ section .theme4 .comingsoon {
   overflow: hidden;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme4 .comingsoon {
     width: calc(88/1600*100%);
     margin: 60px auto;
@@ -982,7 +984,7 @@ section .theme4 .info {
   margin: 5% auto;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme4 .info {
     width: calc(276/1600*100%);
     max-width: 276px;
@@ -996,7 +998,7 @@ section .theme4 .map {
   margin: 0 auto 5%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme4 .map {
     width: calc(240/1600*100%);
     max-width: 240px;
@@ -1013,7 +1015,7 @@ section .theme4 .logo {
   bottom: 60px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   section .theme4 .logo {
     width: calc(200/1600*100%);
     position: relative;
