@@ -799,8 +799,8 @@ section .theme3-3 .title {
 
 @media (min-width: 960px) {
   section .theme3-3 .title {
-    width: calc(142/1000*100%);
-    max-width: 180px;
+    width: calc(326/1000*100%);
+    max-width: 360px;
     top: 12%;
     left: 60%;
     -webkit-transform: none;
@@ -810,7 +810,7 @@ section .theme3-3 .title {
 
 section .theme3-3 .subtitle {
   width: calc(142/460*100%);
-  max-width: 142px;
+  max-width: 180px;
   position: absolute;
   top: 61%;
   left: 50%;
@@ -821,8 +821,8 @@ section .theme3-3 .subtitle {
 @media (min-width: 960px) {
   section .theme3-3 .subtitle {
     width: calc(142/1000*100%);
-    max-width: 180px;
-    top: 20%;
+    max-width: 200px;
+    top: 25%;
     left: 60%;
     -webkit-transform: none;
             transform: none;
@@ -842,8 +842,8 @@ section .theme3-3 .content {
 
 @media (min-width: 960px) {
   section .theme3-3 .content {
-    width: calc(142/1000*100%);
-    max-width: 180px;
+    width: calc(260/1000*100%);
+    max-width: 330px;
     top: 32%;
     left: 60%;
     -webkit-transform: none;
